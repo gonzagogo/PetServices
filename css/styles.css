@@ -1,0 +1,50 @@
+
+.jumbotron {
+background-image: url(https://images.unsplash.com/photo-1514846224086-b024b822f9a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+background-size: cover;
+height: 100%;
+min-height: 350px;}
+}    
+.container-heading {
+    color: #141313;
+    background-color: rgb(6, 150, 119);
+    align-content:center;
+    padding-top: 5px;
+    padding-left: 25px;
+
+}
+.display-4 {
+    color: rgb(100, 175, 138);
+}
+.lead {
+    color: rgb(237, 245, 241);
+
+}
+
+.card {
+    margin:auto;
+    margin-bottom: 15px;
+}
+.card-img-top {
+    width: 286px;
+    height: 190px;
+    background-size: center;
+
+}
+.carousel-inner {
+    height: 500px;
+}
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+#Testimonials {
+    padding: 7% 15%;
+
+}
+.card-text {
+    height: 100px;
+}
