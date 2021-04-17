@@ -1,5 +1,5 @@
 {
-  "name": "git-test",
+  "name": "petservices",
   "version": "1.0.0",
   "description": "Git and Node",
   "main": "index.html",
@@ -21,6 +21,13 @@
   },
   "dependencies": {
     "bootstrap-social": "^5.1.1",
-    "font-awesome": "^4.7.0"
+    "font-awesome": "^4.7.0",
+    "install": "^0.13.0",
+    "jquery": "^3.5.1",
+    "jquery.js": "*",
+    "npm": "^7.10.0",
+    "owl-carousel": "^1.0.0",
+    "owl.carousel": "^2.3.4",
+    "popper.js": "^1.16.1"
   }
 }

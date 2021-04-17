@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+   
+   
     <title>Luke's Pet Services</title>
 </head>
 
 <body>
-    
+    <!--Bootstrap Navbar ***add to every page-->
         <div class= "container.heading">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Luke's Pet Services</a>
@@ -54,73 +56,121 @@
               </nav>
 
         </div> 
+        <!--Jumbotron Container *** add to every page-->
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
-                
-            
-                <h1 class="display-4">Your Best Bud Will Love It</h1>
-                <p class="lead">Because you can't be around <em>all</em> the time...we got you! Your best friend will thank you, whether it's a quick check-in or extended vacation, our team is thrilled to keep your pets happy!</p>
+               <h1 class="display-4">Your Best Bud Will Love It</h1>
+                <p class="lead">Because you can't be around <em>all</em> the time...we got you! Your best friend will thank you, whether it's a quick check-in or extended vacation, our team is thrilled to keep your pets happy! see our packages here </p>
             </div>
         </div>
         
-       
-        
-    <div class="container-heading">    
-    <h1></h1>
-    <h2> </h2>
-    </div> 
-
-    </header> 
+      
+ <!--Cards.  Services offered. -->  
 <div class="row">
-    <div class="card" style="width: 18rem;">
-        <img src="images/leonides-ruvalcabar--JsZ6o5nIhs-unsplash.jpg" class="card-img-top" alt="dog walking">
-        <div class="card-body">
-          <h5 class="card-title">Walks</h5>
-          <p class="card-text">We offer walks from 15, 30, and 45 minutes.  It's important to let your dog get fresh air, move those legs and ofcourse, do his doodies.</p>
-          <a href="#" class="btn btn-primary">Get started</a>
-        </div>
+      <div class="card h-100" style="width: 18rem;">
+          <img src="images/leonides-ruvalcabar--JsZ6o5nIhs-unsplash.jpg" class="card-img-top" alt="dog walking">
+          <div class="card-body">
+            <h5 class= "card-title" >Walks</h5>
+            <p class="card-text">We offer walks from 15, 30, and 45 minutes.  It's important to let your dog get fresh air, move those legs and ofcourse, do his doodies.</p>
+            <a href="#" class="btn btn-primary">Get started</a>
+          </div>
       </div>
-        <div class="card" style="width: 18rem;">
-            <img src="images/jamie-street-s9Tf1eBDFqw-unsplash.jpg" class="card-img-top" alt="dog sitting">
-            <div class="card-body">
-                <h5 class="card-title">Sitting & Boarding</h5>
-                <p class="card-text"> Many people prefer to leave their pup in a stable home versus a daycare, there's more 1 on 1 attention, more confort, and no need to worry about potential "fights" with other canines.</p>
-                <a href="#" class="btn btn-primary">Get started</a>
-            </div>
+    
+        <div class="card h-100" style="width: 18rem;">
+              <img src="images/jamie-street-s9Tf1eBDFqw-unsplash.jpg" class="card-img-top" alt="dog sitting">
+              <div class="card-body">
+                  <h5 class="card-title">Sitting & Boarding</h5>
+                  <p class="card-text"> Many prefer their pup in a stable home versus a daycare:
+                    There's more 1 on 1 attention, more comfort, and no need to worry about quarrels with other canines.</p> 
+                    <a href="#" class="btn btn-primary">Get started</a>
+                    
+              </div>
         </div>
-        <div class="card" style="width: 18rem;">
-            <img src= "images/yerlin-matu-GtwiBmtJvaU-unsplash.jpg" class="card-img-top" alt="dog check in">
-            <div class="card-body">
-                <h5 class="card-title">Check In's</h5>
-                <p class="card-text">Some pets only require a little check-in, a cuddle, and a feeding. This can be tailored to whatever you need!</p>
-                <a href="#" class="btn btn-primary">Get started</a>
-            </div>
+        <div class="card h-100" style="width: 18rem;">
+              <img src= "images/yerlin-matu-GtwiBmtJvaU-unsplash.jpg" class="card-img-top" alt="dog check in">
+              <div class="card-body">
+                  <h5 class="card-title">Check In's</h5>
+                  <p class="card-text">Some pets only require a little check-in, a cuddle, and a feeding. This can be tailored to whatever you need!</p>
+                  <a href="#" class="btn btn-primary">Get started</a>
+              </div>
         </div>
-    </div>
-</div>
+ </div>
+
+<!-- Carousel.  Testimonials. -->
 <div class="testimonials">
-    <div id="Testimonials" class="carousel slide" data-ride="carousel">
+    <div id="Testimonial-carousel" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause= "hover">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/antonio-francisco-Zx_DD4d4Ivg-unsplash.jpg" class="d-block w-100" alt="...">
+              <h3> "I love Lukes! They make it easy to book appointments, and go on vacation!"</h3>
+              <em> - Sophia, Long Island City NY </em>
+              <img class="testimonial-image d-block w-100" src="images/antonio-francisco-Zx_DD4d4Ivg-unsplash.jpg" alt="dogwalking">
+                
             </div>
             <div class="carousel-item">
-                <img src="images/jamie-street-s9Tf1eBDFqw-unsplash.jpg" class="d-block w-100" alt="...">
+              <h3> "I was able to send someone to check on my dog Pickles daily after he had surgery, love this service and would highly recommend."</h3>
+              <em> - Leo, Williamsburg NY </em>
+                <img class="testimonial-image d-block w-100" src="images/jamie-street-s9Tf1eBDFqw-unsplash.jpg" alt="dogsitting">
             </div>
             <div class="carousel-item">
-                <img src="images/Brendansdogs_4x3.png" class="d-block w-100" alt="...">
+              <h3> "My little guy is a "special needs" dog, I trust the team at Luke's and the walkers are consistent, I love that it's not random strangers for each walk."</h3>
+              <em> - Molly, Greenpoint NY </em>
+                <img class="testimonial-image d-block w-100" src="images/Brendansdogs_4x3.png" alt="dogboarding">
             </div>
+             
+<!-- Carousel Previous/Next buttons-->
+              <a class="carousel-control-next" href="#Testimonial-carousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+              <a class="carousel-control-prev" href="#Testimonial-carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+              </a>
+            
         </div>
-        <a class="carousel-control-prev" href="#Testimonials" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#Testimonials" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-        </a>
+       
     </div>
 </div>
+<div class="row">
+  <div class="card h-100 col-sm-4" style="width: 18rem;">
+    <div class="card-body">
+      <h4 class="card-title text-center">Why Us?</h4>
+      <ul class="why-us"> 
+        <li> Certificiation process </li>
+        <li> Minimum 2 years experience</li>
+        <li> Flexible Business Hours</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+    <div class="card h-100 col-sm-4" style="width: 18rem;">
+     <div class="card-body">
+        <h4 class="card-title text-center">How it Works</h4>
+        <ul class="how-it-works"> 
+          <li> Sign Up </li>
+          <li> Pick what you need!</li>
+          <li> Enter Payment</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+      <div class="row">
+          <div class = "col-4 col-sm-2 offset-1">
+              <h5>Links</h5>
+              <ul class= "list-unstyled">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Sites</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+
 
 
 
@@ -131,6 +181,11 @@
     <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+    
+ 
 
 
 </body>
