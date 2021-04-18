@@ -23,12 +23,25 @@ color:rgb(237, 245, 241)}
 .card {
     margin:auto;
     margin-bottom: 15px;
+    margin-top: 15px;
 }
 .card-img-top {
     width: 286px;
     height: 190px;
     background-size: center;
 
+}
+.card-body {
+    border-color: cadetblue;
+    border-style: solid;
+    border-width: thin;
+}
+.card-how {
+    border-color: cadetblue;
+    border-style: solid;
+    border-width: thin;
+    margin-top: 2rem;
+    padding: 1rem;
 }
 .carousel-inner {
     height: 500px;
@@ -59,9 +72,11 @@ h3 {
 }
 .card {
 overflow: hidden;
+border: none
 }
 .card-body {
   overflow: hidden;
+
 }
 .site-footer {
     background-color: rgb(245, 243, 238);
