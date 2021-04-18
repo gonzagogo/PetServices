@@ -16,12 +16,17 @@ color:rgb(237, 245, 241)}
 
 
 .display-4 {
+    padding: 2rem;
    
 }
 .lead {
-    color: rgb(10, 161, 136);
+    color: rgb(27, 29, 29);
     font-weight: bold;
-    background-color: rgb(219, 245, 244);
+    background-color: rgba(219, 245, 244, 0.4);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    
 
 }
 
@@ -91,5 +96,13 @@ border: none
     text-align: center;
     margin-bottom: 2rem;
     padding: 2rem;
+
+}
+
+.list-group {
+    width: 350px;
+    margin-top: 2rem;
+    margin-left: 4rem;
+
 
 }
