@@ -2,11 +2,16 @@
 .jumbotron {
 background-image: url(https://images.unsplash.com/photo-1514846224086-b024b822f9a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
 background-size: cover;
-
 height: 100%;
 min-height: 350px;
 color:rgb(237, 245, 241)}
-  
+
+.jumbotron-services {
+    background-image: url(https://images.unsplash.com/photo-1559444021-6a6e877bba0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size:cover;
+    height: 100%;
+    min-height: 350px;
+}
 
 
 
@@ -14,9 +19,9 @@ color:rgb(237, 245, 241)}
    
 }
 .lead {
-    color: rgb(195, 201, 200);
+    color: rgb(10, 161, 136);
     font-weight: bold;
-    background-color: rgb(81, 131, 129);
+    background-color: rgb(219, 245, 244);
 
 }
 
@@ -37,9 +42,7 @@ color:rgb(237, 245, 241)}
     border-width: thin;
 }
 .card-how {
-    border-color: cadetblue;
-    border-style: solid;
-    border-width: thin;
+    border: none
     margin-top: 2rem;
     padding: 1rem;
 }
@@ -80,4 +83,13 @@ border: none
 }
 .site-footer {
     background-color: rgb(245, 243, 238);
+}
+.why-us {
+    text-align: ;
+}
+.bottom-buttons {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+
 }
