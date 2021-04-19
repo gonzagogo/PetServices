@@ -13,7 +13,9 @@ color:rgb(237, 245, 241)}
     min-height: 350px;
 }
 
-
+.sticky-top {
+    position: sticky
+}
 
 .display-4 {
     padding: 2rem;
@@ -30,6 +32,11 @@ color:rgb(237, 245, 241)}
 
 }
 
+.second {
+    padding: 2rem;
+
+}
+
 .card {
     margin:auto;
     margin-bottom: 15px;
@@ -42,9 +49,7 @@ color:rgb(237, 245, 241)}
 
 }
 .card-body {
-    border-color: cadetblue;
-    border-style: solid;
-    border-width: thin;
+   
 }
 .card-how {
     border: none
@@ -65,7 +70,9 @@ h3 {
     background-color: snow;
 }
 .testimonials {
-    background-color: rgb(195, 247, 247);
+    background-color: rgba(175, 219, 219, 0.6);
+    padding-bottom: .25rem;
+    padding-top: .25rem;
 }
 
 #Testimonial-carousel {
@@ -88,6 +95,13 @@ border: none
 }
 .site-footer {
     background-color: rgb(245, 243, 238);
+    padding: 2rem;
+
+}
+
+.site-footers {
+    padding: .5rem;
+    text-align: center
 }
 .why-us {
     text-align: ;
@@ -100,9 +114,18 @@ border: none
 }
 
 .list-group {
-    width: 350px;
-    margin-top: 2rem;
-    margin-left: 4rem;
+   border: none;
+   margin: none;
 
 
 }
+
+.social-button {
+    text-align: center;
+  
+  }
+  .social {
+  padding: 10px 20px;
+  text-align: center;
+  }
+  
