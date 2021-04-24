@@ -1,0 +1,162 @@
+
+.jumbotron {
+background-image: url(https://images.unsplash.com/photo-1514846224086-b024b822f9a6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
+background-size: cover;
+height: 100%;
+min-height: 350px;
+color:rgb(237, 245, 241)}
+
+.jumbotron-services {
+    background-image: url(https://images.unsplash.com/photo-1559444021-6a6e877bba0f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+    background-size:cover;
+    height: 100%;
+    min-height: 350px;
+}
+.jumbotron-team {
+    background-image: url(https://images.unsplash.com/photo-1563474343198-5aded5eaef68?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+    background-size: cover;
+    height: 100%;
+    min-height: 350px;
+
+}
+.sticky-top {
+    position: sticky
+}
+
+.display-4 {
+    padding: 2rem;
+   
+}
+.lead {
+    color: rgb(242, 247, 247);
+    font-weight: bold;
+    background-color: rgba(49, 51, 51, 0.4);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    
+
+}
+
+.second {
+    padding: 2rem;
+
+}
+
+.card {
+    margin:auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.card-img-top {
+    width: 286px;
+    height: 190px;
+    background-size: center;
+
+}
+.card-body {
+   
+}
+.card-how {
+    border: none;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.carousel-inner {
+    height: 500px;
+}
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+h3 {
+    font-size:medium;
+    background-color: snow;
+}
+.testimonials {
+    background-color: rgba(175, 219, 219, 0.6);
+    padding-bottom: .25rem;
+    padding-top: .25rem;
+}
+
+#Testimonial-carousel {
+    padding: 7% 15%
+    }
+
+.carousel-control-prev {
+        color:rgb(100, 175, 138);
+    }
+.card-text {
+    word-wrap: break-word;
+}
+.card {
+overflow: hidden;
+border: none
+}
+.card-body {
+  overflow: hidden;
+
+}
+.site-footer {
+    background-color: rgb(245, 243, 238);
+    padding: 2rem;
+    position:relative;
+
+}
+
+.site-footers {
+    padding: 1rem;
+    text-align: center
+}
+.why-us {
+    text-align: ;
+}
+.bottom-buttons {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+
+}
+
+.list-group {
+   border: none;
+   margin: none;
+
+
+}
+
+.social-button {
+    text-align: center;
+  
+  }
+  .social {
+  padding: 10px 20px;
+  text-align: center;
+  }
+  .row-team{
+      display: flex;
+      flex-wrap: wrap;
+      margin: 2rem;
+      margin-bottom: 4rem;
+      padding: 1rem;
+
+  }
+  .team {
+      margin-bottom: 2rem;
+  }
+.circle {
+    width: 140px;
+    
+
+}
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+.login {
+    padding-bottom: 2rem;
+}
